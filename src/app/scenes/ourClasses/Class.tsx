@@ -3,7 +3,7 @@ import Image from 'next/image'
 type Props = {
   name: string
   description?: string
-  image: string
+  image: StaticImageData
 }
 
 const Class = ({ name, description, image }: Props) => {
